@@ -1,0 +1,1 @@
+function foo(a, b) {    b = typeof b !== 'undefined' ? b : 0; // Set b to 0 if undefined    return a + b;}foo(1, 2);foo(1); // Works correctly now
